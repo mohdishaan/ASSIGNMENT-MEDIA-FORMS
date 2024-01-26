@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-Media & Forms</title>
+</head>
+<body>
+    <u><center><h1>SIGN-UP FORM</h1></u>
+    <form method="post" action="" name="SIGN-UP">
+        <label for="firstname">First Name:
+            <input type="text" placeholder="enter your first name" id="firstname" 
+            minlength="3" required>
+        </label>
+        <br>
+        <br>
+        <label for="lastname">Last Name:
+            <input type="text" placeholder="enter your last name" id="lastname"
+            minlength="3" required>
+        </label>
+        <br>
+        <br>
+        <label for="email">E-mail:
+            <input type="email" placeholder="enter your e-mail" id="email"
+            minlength="3" required>
+        </label>
+        <br>
+        <br>
+        <label for="password">Password:
+            <input type="password" placeholder="enter your password" id="password"
+            maxlength="10" minlength="4" required>
+        </label>
+        <br>
+        <br>
+        <label for="confirmpassword">Confirm Password:
+            <input type="password" placeholder="enter your confirm password" 
+            id="confirmpassword" maxlength="10" minlength="4" required>
+        </label>
+        <br>
+        <br>
+        <label for="age">Age:
+            <input type="number" placeholder="Choose" id="age"
+            min="0" max="150" required>
+        </label>
+        <br>
+        <br>
+        <label for="gender">Gender:
+            <input type="radio" id="male" value="Male">
+            <label for="male">Male</label> 
+            <input type="radio" id="female" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" value="other">
+            <label for="other">Other</label>
+        </label>
+        <br>
+        <br>
+        <input type="checkbox" id="agreement" required>
+        <label for="agreement">I agree to all the terms and conditions of
+            the form
+        </label>
+        <br><br>
+        <button type="submit">SUBMIT</button>
+        <button type="reset">RESET</button>
+    </form>
+    </center>
+</body>
+</html>
